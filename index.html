@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Leopoldos Giga Pet</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        MY GIGAPET
+      </h1>
+    </header>
+
+    <main>
+      <div class = "conatinerPet">
+      <section class="pet-image-container">
+         <!-- Replace pet image with your own pet image -->
+        <img id = "petImage" class="pet-image" src="images/normal.png">
+      </section>
+      <!-- message pop up With Paw-->
+       <div class="paw-container">
+       <img src="images/paw.png" class="paw-img">
+       <div id="pawMessage" class="paw-message"></div>
+      </div>
+      </div>
+
+      <section class="dashboard">
+        <div>NAME: <strong><span class="name"></span></strong></div>
+        <div>WEIGHT: <strong><span class="weight"></span> POUNDS</strong></div>
+        <div>HAPPINESS: <strong><span class="happiness"></span> TAIL WAGS </strong></div>
+        <div>ENERGY: <strong><span class="energy"></span> % </strong></div>
+        <div class="button-container">
+          <button class="treat-button">
+            TREAT
+          </button>
+          <button class="play-button">
+            PLAY
+          </button>
+          <button class="exercise-button">
+            EXERCISE
+          </button>
+          <button class="sleep-button">
+            SLEEP
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+  </body>
+</html>
